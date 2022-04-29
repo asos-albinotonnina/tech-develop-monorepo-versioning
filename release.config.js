@@ -13,17 +13,25 @@ module.exports = {
       {
         preset: "eslint",
         releaseRules: [
-          { type: "docs", scope: "README", release: "patch" },
-          { type: "refactor", release: "patch" },
-          { type: "style", release: "patch" },
+          { tag: "Docs", message: "*README*", release: "patch" },
+          { tag: "New", release: "patch" },
         ],
-        parserOpts: {
-          noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
-        },
       },
     ],
-    // "@semantic-release/release-notes-generator",
-    "@semantic-release/changelog",
+    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/changelog",
+      {
+        changelogFile: "docs/CHANGELOG.md",
+      },
+    ],
+    [
+      "@semantic-release/git",
+      {
+        assets: ["docs/CHANGELOG.md"],
+      },
+    ],
+    "@semantic-release/git",
     // "@semantic-release/npm",
     // [
     //   "@semantic-release/github",
