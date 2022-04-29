@@ -850,6 +850,13 @@ conventional-changelog-angular@^5.0.0:
     compare-func "^2.0.0"
     q "^1.5.1"
 
+conventional-changelog-eslint@^3.0.9:
+  version "3.0.9"
+  resolved "https://pkgs.dev.azure.com/asos/PlatformEngineering/_packaging/PE-npm/npm/registry/conventional-changelog-eslint/-/conventional-changelog-eslint-3.0.9.tgz#689bd0a470e02f7baafe21a495880deea18b7cdb"
+  integrity sha1-aJvQpHDgL3uq/iGklYgN7qGLfNs=
+  dependencies:
+    q "^1.5.1"
+
 conventional-changelog-writer@^5.0.0:
   version "5.0.1"
   resolved "https://pkgs.dev.azure.com/asos/PlatformEngineering/_packaging/PE-npm/npm/registry/conventional-changelog-writer/-/conventional-changelog-writer-5.0.1.tgz#e0757072f045fe03d91da6343c843029e702f359"
