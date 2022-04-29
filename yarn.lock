@@ -3389,7 +3389,7 @@
 
 "package-b@file:/Users/albino.tonnina/Code/tech-develop-monorepo-versioning/packages/packageB":
   "resolved" "file:packages/packageB"
-  "version" "1.3.0"
+  "version" "1.4.0"
 
 "pacote@^13.0.3", "pacote@^13.0.5", "pacote@^13.1.1":
   "integrity" "sha1-0+bif/xRN9KgcjPtb7oqIJ7LK3s="
