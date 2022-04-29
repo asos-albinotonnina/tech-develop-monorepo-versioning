@@ -11,7 +11,7 @@
     "mmarkdown": "^1.0.0"
   },
   "mmarkdown": {
-    "src": "./readme/readme.md",
+    "src": "./readme/index.md",
     "out": "./readme.md",
     "scripts": "./readme/index.js",
     "backup": false
