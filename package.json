@@ -4,7 +4,7 @@
   "main": "./index.js",
   "license": "MIT",
   "private": true,
-  "repository": "https://github.com/asos-albinotonnina/tech-develop-monorepo-versioning",
+  "repository": "git+https://github.com/asos-albinotonnina/tech-develop-monorepo-versioning.git",
   "workspaces": [
     "packages/*"
   ],
