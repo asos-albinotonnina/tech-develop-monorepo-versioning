@@ -47,12 +47,12 @@ module.exports = {
         npmPublish: false,
       },
     ],
-    // [
-    //   "@semantic-release/github",
-    //   {
-    //     assets: ["dist/**"],
-    //   },
-    // ],
+    [
+      "@semantic-release/github",
+      {
+        assets: [],
+      },
+    ],
   ],
   dryRun: false,
   debug: true,
