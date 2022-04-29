@@ -2,19 +2,5 @@
   "name": "package-b",
   "version": "1.0.0",
   "main": "./index.js",
-  "license": "MIT",
-  "scripts": {
-    "build": "node ./lib/makeCss.js",
-    "version": "mmarkdown"
-  },
-  "devDependencies": {
-    "mmarkdown": "^1.0.0"
-  },
-  "mmarkdown": {
-    "src": "./readme/index.md",
-    "out": "./readme.md",
-    "scripts": "./readme/index.js",
-    "backup": false
-  },
-  "gitHead": "da26baa6406e65727637a818d5e8f7412a7d5a03"
+  "license": "MIT"
 }
