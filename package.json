@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "release": "dotenv -- cross-var yarn workspaces run semantic-release -e semantic-release-monorepo",
-    "postversion": "dotenv -- cross-var yarn run semantic-release"
+    "postversion": "git add . && git push --tags --tag $npm_package_version && git push && echo \"Successfully released version $npm_package_version!\""
   },
   "devDependencies": {
     "cross-var": "^1.1.0",
