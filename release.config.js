@@ -8,25 +8,12 @@ module.exports = {
       "@semantic-release/commit-analyzer",
       {
         preset: "angular",
-        parserOpts: {
-          noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"],
-        },
-        releaseRules: [
-          { tag: "Docs", message: "*README*", release: "patch" },
-          { tag: "New", release: "patch" },
-        ],
       },
     ],
     [
       "@semantic-release/release-notes-generator",
       {
         preset: "angular",
-        parserOpts: {
-          noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"],
-        },
-        writerOpts: {
-          commitsSort: ["subject", "scope"],
-        },
       },
     ],
     [
