@@ -9,9 +9,8 @@
     "packages/*"
   ],
   "scripts": {
-    "ci:publish": "",
     "release": "dotenv -- cross-var yarn workspaces run semantic-release -e semantic-release-monorepo",
-    "version": "mmarkdown && git add ."
+    "version": "dotenv -- cross-var yarn run semantic-release -e semantic-release-monorepo"
   },
   "devDependencies": {
     "cross-var": "^1.1.0",
