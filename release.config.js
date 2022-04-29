@@ -40,7 +40,7 @@ module.exports = {
     //   },
     // ],
   ],
-  dryRun: true,
+  dryRun: false,
   debug: true,
   ci: false, // Set to false to skip Continuous Integration environment verifications. This allows for making releases from a local machine.
 };
