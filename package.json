@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "release": "dotenv -- cross-var yarn workspaces run semantic-release -e semantic-release-monorepo  && yarn postversion",
-    "postversion": "git restore package-lock.json && git add -n yarn.lock && git commit -m 'update lock file'"
+    "postversion": "git restore package-lock.json && git add -n yarn.lock && git commit -n -m 'update lock file'"
   },
   "devDependencies": {
     "cross-var": "^1.1.0",
