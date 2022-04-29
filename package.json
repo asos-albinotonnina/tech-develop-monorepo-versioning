@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "ci:publish": "",
-    "bump": "",
+    "semantic-release": "yarn workspaces run semantic-release -e semantic-release-monorepo",
     "version": "mmarkdown && git add .",
     "build": ""
   },
