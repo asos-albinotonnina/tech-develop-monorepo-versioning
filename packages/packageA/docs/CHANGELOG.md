@@ -1,3 +1,10 @@
+# [package-a-v1.7.2](https://github.com/asos-albinotonnina/tech-develop-monorepo-versioning/compare/package-a-v1.7.1...package-a-v1.7.2) (2022-04-29)
+
+
+### Bug Fixes
+
+* **pencil:** added another log ([5cab257](https://github.com/asos-albinotonnina/tech-develop-monorepo-versioning/commit/5cab2575018415e376dc4e488726d075407106bf))
+
 # [package-a-v1.7.1](https://github.com/asos-albinotonnina/tech-develop-monorepo-versioning/compare/package-a-v1.7.0...package-a-v1.7.1) (2022-04-29)
 
 
