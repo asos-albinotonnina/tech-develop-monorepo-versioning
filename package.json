@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "main": "./index.js",
   "license": "MIT",
+  "packages": [
+    "packages/*"
+  ],
   "scripts": {
     "ci:publish": "lerna publish from-package --yes",
     "bump": "lerna version --yes",
