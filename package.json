@@ -15,14 +15,7 @@
   },
   "devDependencies": {
     "cross-var": "^1.1.0",
-    "dotenv-cli": "^5.1.0",
-    "mmarkdown": "^1.0.0"
-  },
-  "mmarkdown": {
-    "src": ".readme/index.md",
-    "out": "./readme.md",
-    "scripts": ".readme/index.js",
-    "backup": false
+    "dotenv-cli": "^5.1.0"
   },
   "dependencies": {
     "@semantic-release/changelog": "^6.0.1",
