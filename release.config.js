@@ -7,14 +7,28 @@ module.exports = {
     [
       "@semantic-release/commit-analyzer",
       {
-        preset: "eslint",
+        preset: "angular",
+        parserOpts: {
+          noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"],
+        },
         releaseRules: [
           { tag: "Docs", message: "*README*", release: "patch" },
           { tag: "New", release: "patch" },
         ],
       },
     ],
-    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/release-notes-generator",
+      {
+        preset: "angular",
+        parserOpts: {
+          noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"],
+        },
+        writerOpts: {
+          commitsSort: ["subject", "scope"],
+        },
+      },
+    ],
     [
       "@semantic-release/changelog",
       {
@@ -27,7 +41,6 @@ module.exports = {
         assets: ["docs/CHANGELOG.md"],
       },
     ],
-    "@semantic-release/git",
     // "@semantic-release/npm",
     // [
     //   "@semantic-release/github",
