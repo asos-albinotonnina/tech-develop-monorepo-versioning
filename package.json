@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "release": "dotenv -- cross-var yarn workspaces run semantic-release -e semantic-release-monorepo",
-    "version": "dotenv -- cross-var yarn run semantic-release -e semantic-release-monorepo"
+    "version": "dotenv -- cross-var yarn run semantic-release"
   },
   "devDependencies": {
     "cross-var": "^1.1.0",
