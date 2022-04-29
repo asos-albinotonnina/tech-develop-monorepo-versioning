@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "ci:publish": "",
-    "semantic-release": "yarn workspaces run semantic-release -e semantic-release-monorepo",
+    "release": "yarn workspaces run semantic-release -e semantic-release-monorepo",
     "version": "mmarkdown && git add .",
     "build": ""
   },
@@ -23,6 +23,8 @@
     "backup": false
   },
   "dependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
     "semantic-release": "^19.0.2",
     "semantic-release-monorepo": "^7.0.5"
   }
