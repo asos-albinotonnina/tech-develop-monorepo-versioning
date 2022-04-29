@@ -1,3 +1,10 @@
+# [package-a-v1.2.0](https://github.com/asos-albinotonnina/tech-develop-monorepo-versioning/compare/package-a-v1.1.0...package-a-v1.2.0) (2022-04-29)
+
+
+### Features
+
+* **pencil:** add another console log ([b997cdd](https://github.com/asos-albinotonnina/tech-develop-monorepo-versioning/commit/b997cdd8e12c8644b9f8dcb3606e7f5d322fc8cd))
+
 # [package-a-v1.1.0](https://github.com/asos-albinotonnina/tech-develop-monorepo-versioning/compare/package-a-v1.0.1...package-a-v1.1.0) (2022-04-29)
 
 
