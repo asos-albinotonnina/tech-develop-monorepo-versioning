@@ -1,4 +1,3 @@
-# Hello
+# Tech Develops Day
 
-### [at-monorepo-test-package1](packages/package1) -  v1.12.0
-
+Bye Lerna 😢 Audit semantic-release and semantic-release-monorepo libs, scope: fully automated version management, package publishing, release documents and user notifications.
