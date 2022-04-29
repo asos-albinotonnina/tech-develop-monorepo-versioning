@@ -36,6 +36,12 @@ module.exports = {
       },
     ],
     [
+      "@semantic-release/npm",
+      {
+        npmPublish: false,
+      },
+    ],
+    [
       "@semantic-release/git",
       {
         assets: [
@@ -44,12 +50,6 @@ module.exports = {
           "package-lock.json",
           "yarn.lock",
         ],
-      },
-    ],
-    [
-      "@semantic-release/npm",
-      {
-        npmPublish: false,
       },
     ],
     [
