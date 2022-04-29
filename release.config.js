@@ -47,8 +47,8 @@ module.exports = {
         assets: [
           "docs/CHANGELOG.md",
           "package.json",
-          "../package-lock.json",
-          "../yarn.lock",
+          "**/package-lock.json",
+          "**/yarn.lock",
         ],
       },
     ],

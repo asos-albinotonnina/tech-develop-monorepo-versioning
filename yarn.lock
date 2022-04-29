@@ -3385,7 +3385,7 @@
 
 "package-a@file:/Users/albino.tonnina/Code/tech-develop-monorepo-versioning/packages/packageA":
   "resolved" "file:packages/packageA"
-  "version" "1.1.0"
+  "version" "1.2.0"
 
 "package-b@file:/Users/albino.tonnina/Code/tech-develop-monorepo-versioning/packages/packageB":
   "resolved" "file:packages/packageB"
